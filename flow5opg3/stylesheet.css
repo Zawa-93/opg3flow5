@@ -1,0 +1,38 @@
+.card{
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0;
+}
+@media (min-width: 762px) {
+    .mobile-img {
+      display: none;
+    }
+
+    .desktop-img {
+      display: block;
+    }
+    .footer {
+        background-color: #ff9acc;
+        color: #ffc3e3;
+        padding: 20px 0;
+      }
+    
+      .social-icons {
+        text-align: center;
+      }
+    
+      .social-icons a {
+        color: #f43da8;
+        font-size: 24px;
+        margin: 0 10px;
+      }
+  }
+  @media (max-width: 768px) {
+    .mobile-img {
+      display: block;
+    }
+
+    .desktop-img {
+      display: none;
+    }
+  }
